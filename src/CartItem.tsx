@@ -1,4 +1,3 @@
-import { isTemplateExpression } from "typescript";
 import { useCartContext } from "./context/cartContext"
 import storeProducts from "./data/products.json";
 import style from './styles.module.css'
@@ -16,7 +15,7 @@ export default function CartItem({ id, quantity }: CartItemProps) {
     const cartContainer: string = style.cartContainer
     const btn: string = style.btn
 
-    const { getItemQuantity,increaseCartQuantity, decreaseCartQuantity, cartItems} = useCartContext()
+    const { increaseCartQuantity, decreaseCartQuantity} = useCartContext()
     const product = storeProducts.find(product => product.id === id)
     
     //product not exist

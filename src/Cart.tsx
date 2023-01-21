@@ -1,6 +1,6 @@
-import React, { useState } from 'react'
+import React from 'react'
 import storeProducts from "./data/products.json";
-import { CartProvider, useCartContext } from './context/cartContext'
+import { useCartContext } from './context/cartContext'
 import style from './styles.module.css'
 import CartItem from './CartItem'
 
@@ -14,8 +14,6 @@ export default function Cart() {
     const column: string = style.column
     const largerFont: string = style.largerFont
     const conclude: string = style.conclude
-
-    const [numberOfItem, setNumberOfItem] = useState(0);
 
     const { cartItems } = useCartContext()
 
