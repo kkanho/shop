@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "name": "Face Masks",
+        "price": 50,
+        "image": "https://picsum.photos/200"
+    },
+    {
+        "id": 2,
+        "name": "Toilet Paper",
+        "price": 9.9,
+        "image": "https://picsum.photos/200"
+    }
+]

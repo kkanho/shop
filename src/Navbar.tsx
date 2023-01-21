@@ -3,6 +3,7 @@ import style from './styles.module.css'
 
 export default function Navbar() {
     
+    //style
     const navbar: string = style.navbar
 
     return (

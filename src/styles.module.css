@@ -11,6 +11,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    min-height: 300px;
     margin-top: 50px;
     border: 2px solid black;
     border-radius: 25px;
@@ -19,7 +20,7 @@
 
 .title {
     font-size: 32px;
-    padding: 20px;
+    padding: 10px;
 }
 
 .productList {
@@ -104,6 +105,49 @@
     transition: 0s;
 }
 
+.removeFromCartStyle {
+    width: 95%;
+    margin: 0 5px;
+    margin-bottom: 5px;
+    background: #f55; 
+    border: 1px solid #555555;
+    color: #fff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.removeFromCartStyle:hover {
+    background: #f33; 
+    border: 1px solid #555555;
+    color: white;
+}
+
+.removeFromCartStyle:after {
+    content: "";
+    display: block;
+    border-radius: 4em;
+    left: 0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all 0.5s;
+    box-shadow: 0 0 10px 40px #f33;
+}
+
+.removeFromCartStyle:active:after {
+    box-shadow: 0 0 0 0 #f33;
+    border-radius: 4em;
+    left: 0;
+    top:0;
+    opacity: 1;
+    transition: 0s;
+}
+
 .cart {
     display: flex;
     font-family: 'Gill Sans', sans-serif;
@@ -122,9 +166,16 @@ table {
 }
 
 .column {
-    padding: 5px 20px 5px 20px;
+    padding: 20px;
     width: 140px;
     height: 20px;
+    width: 100px;
+    text-align: center;
+}
+
+.largerFont {
+    font-size: larger;
+    color: red;
 }
 
 .cartContainer {

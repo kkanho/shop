@@ -1,28 +1,45 @@
 import React from 'react'
+import { useCartContext } from './context/cartContext'
 import style from './styles.module.css'
 
-export default function Product() {
+type productProps = {
+    id: number
+    name: string
+    price: number
+    image: string
+}
 
+export default function Product({id, name, price, image}:productProps) {
+
+    //style
     const productContainer: string = style.productContainer
     const productName: string = style.productName
     const productImg: string = style.productImg
     const productPrice: string = style.productPrice
-    const addToCart: string = style.addToCart
+    const addToCart: string = style.addToCart    
+    const removeFromCartStyle: string = style.removeFromCartStyle    
     
-    
+    const { getItemQuantity, increaseCartQuantity, removeFromCart } = useCartContext()
+    const quantity = getItemQuantity(id)
 
     return (
         <div className={productContainer}>
             <div className={productName}>
-                ProductName
+                {name}
             </div>
-            <img className={productImg} src="https://picsum.photos/200" alt="item name"/>
+            <img className={productImg} src={image} alt="item name"/>
             <div className={productPrice}>
-                $10.00
+                ${price}
             </div>
-            <button className={addToCart}>
-                Add to Cart
-            </button>
+            {
+                quantity === 0 ? 
+                (<button className={addToCart} onClick={() => increaseCartQuantity(id)}>
+                    Add to Cart
+                </button>) : 
+                (<button className={removeFromCartStyle} onClick={() => removeFromCart(id)}>
+                    Remove
+                </button>)
+            }
         </div>
     )
 }
