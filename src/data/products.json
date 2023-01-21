@@ -2,13 +2,13 @@
     {
         "id": 1,
         "name": "Face Masks",
-        "price": 50,
+        "price": 69.0,
         "image": "https://picsum.photos/200"
     },
     {
         "id": 2,
         "name": "Toilet Paper",
-        "price": 9.9,
+        "price": 79.5,
         "image": "https://picsum.photos/200"
     }
 ]

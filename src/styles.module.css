@@ -13,9 +13,10 @@
     flex-direction: column;
     min-height: 300px;
     margin-top: 50px;
-    border: 2px solid black;
+    border: 2px solid #ddd;
     border-radius: 25px;
     background: #fff;
+    box-shadow: 0 10px 5px #ccc;
 }
 
 .title {
@@ -161,12 +162,13 @@ table {
     flex-direction: column;
 }
 
+
 .head {
     font-weight: bold;
 }
 
 .column {
-    padding: 20px;
+    padding: 20px 20px 5px 20px;
     width: 140px;
     height: 20px;
     width: 100px;
