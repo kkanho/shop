@@ -13,6 +13,7 @@ export default function Cart() {
     const head: string = style.head
     const column: string = style.column
     const largerFont: string = style.largerFont
+    const conclude: string = style.conclude
 
     const [numberOfItem, setNumberOfItem] = useState(0);
 
@@ -26,7 +27,7 @@ export default function Cart() {
                         <tr className={head}>
                             <td className={column}>Item</td> 
                             <td className={column}>Total Cost</td>
-                            <td className={column}></td>
+                            <td className={column}>Quantity</td>
                         </tr>
                     </thead>
                     <tbody>
@@ -42,9 +43,9 @@ export default function Cart() {
                             )
                         }
                         <tr>
-                            <td className={column}></td>
-                            <td className={column}>Cart Total:</td>
-                            <td className={column}>$
+                            <td className={`${column} ${conclude}`}></td>
+                            <td className={`${column} ${conclude}`}>Cart Total:</td>
+                            <td className={`${column} ${conclude}`}>$
                                 {cartItems.reduce((total, cartItem) => {
                                     const product = storeProducts.find(product => product.id === cartItem.id)
                                     if (product == null) return total
