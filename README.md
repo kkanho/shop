@@ -1,4 +1,11 @@
-# Getting Started with Create React App
+# React Shop
+
+A simple React shop web app
+
+**![image](https://user-images.githubusercontent.com/97432128/213882555-ab2e4474-2737-462e-9e2c-e44e6d277ec4.png)**
+
+This is a simple web app that allows a user to add products to cart and remove products from the cart.
+The app also calculate and display the costs of the items and the total amount to pay **automatically**.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
