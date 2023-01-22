@@ -30,14 +30,14 @@ export default function Cart() {
                     </thead>
                     <tbody>
                         {
-                            cartItems == null?(
-                                <tr>
-                                    <td className={`${column} ${largerFont}`} colSpan={4}>Your cart is currently empty</td>
-                                </tr>
-                            ) : (
+                            (cartItems && cartItems.length > 0)?(
                                 cartItems.map(cartItem => (
                                     <CartItem key={cartItem.id} {...cartItem} />
                                 ))
+                            ) : (
+                                <tr>
+                                    <td className={`${column} ${largerFont}`} colSpan={4}>Your cart is currently empty</td>
+                                </tr>
                             )
                         }
                         <tr>
