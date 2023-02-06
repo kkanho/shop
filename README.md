@@ -14,17 +14,13 @@ The app also calculate and display the costs of the items and the total amount t
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Node is required
+## Available Scripts
 
-You may run:
+In the project directory, you can run:
 
 ### `npm install`
 
 Install various packages and resolving their various dependencies
-
-## Available Scripts
-
-In the project directory, you can run:
 
 ### `npm start`
 
