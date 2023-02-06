@@ -1,8 +1,8 @@
 [
     {
         "id": 1,
-        "name": "Face Masks",
-        "price": 69.0,
+        "name": "Alcohol Wipes",
+        "price": 27.0,
         "image": "https://picsum.photos/200?random=10"
     },
     {
@@ -10,5 +10,29 @@
         "name": "Toilet Paper",
         "price": 79.5,
         "image": "https://picsum.photos/200?random=20"
+    },
+    {
+        "id": 3,
+        "name": "Face Masks",
+        "price": 69.0,
+        "image": "https://picsum.photos/200?random=30"
+    },
+    {
+        "id": 4,
+        "name": "Book",
+        "price": 100.0,
+        "image": "https://picsum.photos/200?random=40"
+    },
+    {
+        "id": 5,
+        "name": "Figure",
+        "price": 120.0,
+        "image": "https://picsum.photos/200?random=50"
+    },
+    {
+        "id": 6,
+        "name": "Lime",
+        "price": 24.9,
+        "image": "https://picsum.photos/200?random=60"
     }
 ]
