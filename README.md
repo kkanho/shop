@@ -2,7 +2,7 @@
 
 A simple React shop web app
 
-Styling using bootstrap
+Styling using [React Bootstrap](https://github.com/react-bootstrap/react-bootstrap)
 **![image](https://user-images.githubusercontent.com/97432128/217022554-afd23736-d585-40be-9558-f4901f0a94b8.png)**
 
 
@@ -13,6 +13,14 @@ This is a simple web app that allows user to add products to cart and remove pro
 The app also calculate and display the costs of the items and the total amount to pay **automatically**.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Node is required
+
+You may run:
+
+### `npm install`
+
+Install various packages and resolving their various dependencies
 
 ## Available Scripts
 
