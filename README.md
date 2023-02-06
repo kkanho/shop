@@ -2,7 +2,12 @@
 
 A simple React shop web app
 
-**![image](https://user-images.githubusercontent.com/97432128/213883764-698f90b5-eb7e-43e9-9d70-0e472a348cbc.png)**
+Styling using bootstrap
+**![image](https://user-images.githubusercontent.com/97432128/217022554-afd23736-d585-40be-9558-f4901f0a94b8.png)**
+
+
+Previous versions
+[image](https://user-images.githubusercontent.com/97432128/213883764-698f90b5-eb7e-43e9-9d70-0e472a348cbc.png)
 
 This is a simple web app that allows user to add products to cart and remove products from the cart.
 The app also calculate and display the costs of the items and the total amount to pay **automatically**.
