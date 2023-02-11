@@ -4,7 +4,9 @@ A simple React shop web app
 
 Click [this link](https://preeminent-sawine-895984.netlify.app/) to try it out
 
-Styling using [React Bootstrap](https://github.com/react-bootstrap/react-bootstrap)
+Styling with [React Bootstrap](https://github.com/react-bootstrap/react-bootstrap)
+
+Preview:
 **![image](https://user-images.githubusercontent.com/97432128/217022554-afd23736-d585-40be-9558-f4901f0a94b8.png)**
 
 
