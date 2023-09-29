@@ -2,7 +2,7 @@
 
 A simple React shop web app
 
-Click [this link](https://hokwunkan-shop.netlify.app) to try it out
+Click [this link](https://kanho-shop.netlify.app/) to try it out
 
 Styling with [React Bootstrap](https://github.com/react-bootstrap/react-bootstrap)
 
